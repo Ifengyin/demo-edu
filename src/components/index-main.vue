@@ -29,7 +29,7 @@
       <div class="sort-detail">
         <div class="sort-detail-title">
           <a href="#">
-            <i class="fa fa-caret-square-o-up"></i>微课推荐
+            <i class="fa fa-film"></i>微课推荐
           </a>
           <ul>
               <li><a href="#">语文</a></li>
@@ -109,6 +109,102 @@
           </div>
         </div>
       </div>
+      <div class="sort-detail m15">
+        <div class="sort-detail-title">
+          <a href="#">
+            <i class="fa fa-caret-square-right"></i>资源推荐
+          </a>
+          <ul>
+            <li><a href="#">学前</a></li>
+            <li><a href="#">小学</a></li>
+            <li><a href="#">初中</a></li>
+            <li><a href="#">高中</a></li>
+            <li><a href="#">课外</a></li>
+            <li><a href="#">更多</a></li>
+          </ul>
+          <a href="#" class="btn btn-default pull-right">MORE >></a>
+        </div>
+        <div class="sort-detail-content clr clearfix">
+          <div class="part2">
+            <h3><a href="#"><i class="fa fa-calendar-check mr5"></i>试题</a></h3>
+            <div class="part2-contianer">
+              <ul class="part2-group">
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="part2">
+            <h3><a href="#"><i class="fa fa-clone mr5"></i>课件</a></h3>
+            <div class="part2-contianer">
+              <ul class="part2-group">
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="hot">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+                <li>
+                  <a href="#" class="new">陕西省黄陵中学2017-2018学年高二（普通班）上学期期末考试试卷</a>
+                  <span class="pull-right">2018/01/18</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -121,14 +217,21 @@
 </script>
 
 <style scoped>
+  .part2{
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+    padding:0px 20px 10px;
+  }
+  .mr17{margin-right: 17px;}
+  .m15{margin:15px 0;}
+  .mr5{margin-right:5px;}
   .tipc a{
     display: inline-block;
     height:60px;
     line-height: 60px;
   }
-  .sort5{
 
-  }
   .sort-container{
     width:220px;
     height:120px;
@@ -194,6 +297,7 @@
     margin-right:15px;
     vertical-align: middle;
   }
+
   .sort-detail .sort-detail-content .detail-wk{
     width:210px;
     float:left;
@@ -219,6 +323,44 @@
     -moz-text-overflow:ellipsis;
     white-space:nowrap;
   }
-  .mr17{margin-right: 17px;}
-  .m15{margin:15px 0;}
+  .sort-detail .sort-detail-content h3{
+    border-bottom:2px solid #d9534f;
+    margin:0;
+    padding-bottom:5px;
+    padding-left:5px;
+  }
+  .sort-detail .sort-detail-content h3 a{
+    font-size:18px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer{
+    width:100%;
+    margin:10px 0 5px 0;
+    height:240px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer .part2-group li{
+    height:30px;
+    line-height: 30px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer .part2-group li a{
+    font-size:14px;
+    display: inline-block;
+    width:420px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -webkit-text-overflow:ellipsis;
+    -moz-text-overflow:ellipsis;
+    white-space:nowrap;
+    padding-left:40px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer .part2-group li a.hot{
+    background: url(../assets/images/icons/hot.gif) no-repeat 5px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer .part2-group li a.new{
+    background: url(../assets/images/icons/new.gif) no-repeat 5px 10px;
+  }
+  .sort-detail .sort-detail-content .part2-contianer .part2-group li span.pull-right{
+    color:#357ebd;font-size:14px;
+  }
+
 </style>

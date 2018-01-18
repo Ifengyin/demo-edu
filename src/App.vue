@@ -8,7 +8,7 @@
 
 <script>
   import './assets/css/bootstrap.min.css'
-  import './assets/css/font-awesome.min.css'
+  import './assets/css/fontawesome-all.min.css'
   import './assets/css/common.css'
   import './assets/js/bootstrap.min.js'
   import header from './components/header'
